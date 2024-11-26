@@ -1,15 +1,20 @@
 using UnityEngine;
 
-public class KeyView : MonoBehaviour, IInteractable
-{
-    [SerializeField] GameUIView gameUIView;
-    public void Interact()
+    public class KeyView : MonoBehaviour, IInteractable
     {
-        GameService.Instance.GetInstructionView().HideInstruction();
-        GameService.Instance.GetSoundView().PlaySoundEffects(SoundType.KeyPickUp);
-        GameService.Instance.GetPlayerController().KeysEquipped++;
-        gameUIView.UpdateKeyText();
+        [SerializeField] GameUIView gameUIView;
+        public void Interact()
+        {
+            int currentKeys = GameService.Instance.GetPlayerController().KeysEquipped;
+            
+            GameService.Instance.GetInstructionView().HideInstruction();
+            GameService.Instance.GetSoundView().PlaySoundEffects(SoundType.KeyPickUp);
+            currentKeys++;
+          // GameService.Instance.GetPlayerController().KeysEquipped++;
+            gameUIView.UpdateKeyText();
 
-        gameObject.SetActive(false);
+            gameObject.SetActive(false);
+        }
     }
-}
+
+

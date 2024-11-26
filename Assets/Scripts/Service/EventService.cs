@@ -1,21 +1,22 @@
-
 public class EventService
 {
-    private static EventService instance;
+    private static EventService _instance;
+
     public static EventService Instance
     {
         get
         {
-            if (instance == null)
+            if (_instance == null)
             {
-                instance = new EventService();
+                _instance = new EventService();
             }
-            return instance;
+
+            return _instance;
         }
     }
 
     public EventController OnLightSwitchToggled { get; private set; }
-
+    public EventController<int> OnkeyPickedUp { get; private set; } 
     public EventService()
     {
         OnLightSwitchToggled = new EventController();
