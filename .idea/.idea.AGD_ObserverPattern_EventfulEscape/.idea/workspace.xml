@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab6211e5-130c-4752-9942-f60d57cf8954" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AGD_ObserverPattern_EventfulEscape/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AGD_ObserverPattern_EventfulEscape/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interactables/KeyView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interactables/KeyView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GameUIView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/GameUIView.cs" afterDir="false" />
-    </list>
+    <list default="true" id="ab6211e5-130c-4752-9942-f60d57cf8954" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +102,7 @@
       <workItem from="1732462971354" duration="655000" />
       <workItem from="1732532414271" duration="292000" />
       <workItem from="1732532733695" duration="6115000" />
-      <workItem from="1732601533415" duration="5600000" />
+      <workItem from="1732601533415" duration="6436000" />
     </task>
     <servers />
   </component>
@@ -133,5 +129,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/UI/GameUIView.cs</url>
+          <line>25</line>
+          <properties documentPath="F:\Outscal Projects\AGD_ObserverPattern_EventfulEscape\Assets\Scripts\UI\GameUIView.cs" containingFunctionPresentation="Method 'OnEnable'">
+            <startOffsets>
+              <option value="706" />
+            </startOffsets>
+            <endOffsets>
+              <option value="758" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

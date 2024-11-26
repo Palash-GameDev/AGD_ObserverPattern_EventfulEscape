@@ -27,19 +27,21 @@ public class PlayerController
         playerState = PlayerState.InDark;
 
         EventService.Instance.OnLightSwitchToggled.AddListener(onLightSwitch);
+        EventService.Instance.OnkeyPickedUp.AddListener(onKeyPickedUp);
     }
 
     ~PlayerController()
     {
         EventService.Instance.OnLightSwitchToggled.RemoveListener(onLightSwitch);
+        EventService.Instance.OnkeyPickedUp.RemoveListener(onKeyPickedUp);
     }
     public void Interact() => IsInteracted = Input.GetKeyDown(KeyCode.E) ? true : (Input.GetKeyUp(KeyCode.E) ? false : IsInteracted);
 
     public void Jump(Rigidbody playerRigidbody, Transform transform)
     {
-        bool IsGrounded = Physics.Raycast(transform.position, -transform.up, playerScriptableObject.raycastLength);
+        bool isGrounded = Physics.Raycast(transform.position, -transform.up, playerScriptableObject.raycastLength);
 
-        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded)
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             playerRigidbody.AddForce(Vector3.up * playerScriptableObject.jumpForce, ForceMode.Impulse);
         }
@@ -84,5 +86,10 @@ public class PlayerController
             PlayerState = PlayerState.None;
         else
             PlayerState = PlayerState.InDark;
+    }
+
+    private void onKeyPickedUp(int keys)
+    {
+        KeysEquipped = keys;
     }
 }
