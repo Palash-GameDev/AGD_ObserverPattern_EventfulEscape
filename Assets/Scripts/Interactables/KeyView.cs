@@ -11,8 +11,9 @@ using UnityEngine;
             GameService.Instance.GetSoundView().PlaySoundEffects(SoundType.KeyPickUp);
             currentKeys++;
           // GameService.Instance.GetPlayerController().KeysEquipped++;
-            gameUIView.UpdateKeyText();
+           // gameUIView.UpdateKeyText();
 
+           EventService.Instance.OnkeyPickedUp.InvokeEvent(currentKeys);
             gameObject.SetActive(false);
         }
     }

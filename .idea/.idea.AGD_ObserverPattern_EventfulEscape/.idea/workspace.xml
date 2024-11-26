@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab6211e5-130c-4752-9942-f60d57cf8954" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Events/EventController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Events/EventController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AGD_ObserverPattern_EventfulEscape/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AGD_ObserverPattern_EventfulEscape/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interactables/KeyView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interactables/KeyView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Service/EventService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Service/EventService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GameUIView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/GameUIView.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +106,7 @@
       <workItem from="1732462971354" duration="655000" />
       <workItem from="1732532414271" duration="292000" />
       <workItem from="1732532733695" duration="6115000" />
-      <workItem from="1732601533415" duration="4497000" />
+      <workItem from="1732601533415" duration="5600000" />
     </task>
     <servers />
   </component>
