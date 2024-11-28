@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerSanity : MonoBehaviour
@@ -7,6 +8,16 @@ public class PlayerSanity : MonoBehaviour
     [SerializeField] private float sanityDropAmountPerEvent = 10f;
     private float maxSanity;
     private PlayerController playerController;
+
+    private void OnEnable()
+    {
+        EventService.Instance.OnRatRush.AddListener(OnSupernaturalEvent);
+    }
+
+    private void OnDisable()
+    {
+        EventService.Instance.OnRatRush.RemoveListener(OnSupernaturalEvent);
+    }
 
     private void Start()
     {
