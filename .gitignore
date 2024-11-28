@@ -71,3 +71,22 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+.idea/.idea.AGD_ObserverPattern_EventfulEscape/.idea/indexLayout.xml
+.idea/.idea.AGD_ObserverPattern_EventfulEscape/.idea/projectSettingsUpdater.xml
+.idea/.idea.AGD_ObserverPattern_EventfulEscape/.idea/workspace.xml
+.idea/.idea.AGD_ObserverPattern_EventfulEscape/.idea/inspectionProfiles/Project_Default.xml
+Game Build/index.html
+Game Build/Build/Build.data.gz
+Game Build/Build/Build.framework.js.gz
+Game Build/Build/Build.loader.js
+Game Build/Build/Build.wasm.gz
+Game Build/TemplateData/favicon.ico
+Game Build/TemplateData/fullscreen-button.png
+Game Build/TemplateData/progress-bar-empty-dark.png
+Game Build/TemplateData/progress-bar-empty-light.png
+Game Build/TemplateData/progress-bar-full-dark.png
+Game Build/TemplateData/progress-bar-full-light.png
+Game Build/TemplateData/style.css
+Game Build/TemplateData/unity-logo-dark.png
+Game Build/TemplateData/unity-logo-light.png
+Game Build/TemplateData/webgl-logo.png
